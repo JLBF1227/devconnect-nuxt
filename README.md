@@ -1,75 +1,34 @@
-# Nuxt Minimal Starter
+# DevConnect
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Projeto desenvolvido com Nuxt, Vue 3, Tailwind CSS e daisyUI.
 
-## Setup
+A aplicação possui uma página inicial e uma página de cadastro de membros com validação de formulário, reatividade e feedback visual.
 
-Make sure to install dependencies:
+## Tecnologias utilizadas
 
-```bash
-# npm
-npm install
+- Node.js
+- Nuxt 4
+- Vue 3
+- TypeScript
+- Tailwind CSS
+- daisyUI
 
-# pnpm
-pnpm install
+## Funcionalidades
 
-# yarn
-yarn install
+- Roteamento com Nuxt
+- Página inicial
+- Formulário de cadastro
+- Validação de campos
+- Validação de e-mail
+- Seleção de interesses
+- Limite de caracteres na bio
+- Feedback visual de sucesso
+- Limpeza automática do formulário
+- Exibição dos dados no console
 
-# bun
-bun install
-```
+## Como executar
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
+Clone o repositório:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+git clone https://github.com/JLBF1227/devconnect-nuxt.git
